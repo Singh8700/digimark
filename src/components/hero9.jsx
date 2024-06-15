@@ -44,7 +44,7 @@ const Hero9 = (props) => {
 Hero9.defaultProps = {
   action2: 'Get Started',
   image1Src:
-    './bg.webp',
+    './bg.svg',
   content1:
     'We offer top-notch Instagram, YouTube, and Google Ads services to help you increase followers, engagement, and reach your target audience.',
   action1: 'Learn More',

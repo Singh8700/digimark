@@ -177,7 +177,7 @@ Footer1.defaultProps = {
   column1Title: 'Company',
   action1: 'Subscribe to our newsletter',
   link3: 'FAQs',
-  logoSrc: './logos.png',
+  logoSrc: './logos.webp',
   link8: 'Google Ads Services',
   link10: 'Careers',
 }

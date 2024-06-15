@@ -109,7 +109,7 @@ Navbar4.defaultProps = {
   logoAlt: 'Digital Marketing Agency',
   link1: 'Home',
   logoSrc:
-    './logos.png',
+    './logos.webp',
   action1: '/',
   action3: '/about',
   action2: '/services',
