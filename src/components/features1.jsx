@@ -92,18 +92,18 @@ Features1.defaultProps = {
   mainAction: 'Increase Followers',
   slogan: 'Grow Your Online Presence with Us',
   feature3ImageSrc:
-    'https://images.unsplash.com/photo-1590658268037-6bf12165a8df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzQ4NjkwN3w&ixlib=rb-4.0.3&q=80&w=1080',
+    './googleads.webp',
   feature2ImageAlt: 'YouTube Services Image',
   secondaryAction: 'Boost Engagement',
   feature1ImageSrc:
-    'https://images.unsplash.com/photo-1622532832487-b18b9c7f23d3?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEzfHxpbnN0YWdyYW18ZW58MHx8fHwxNzE3NDg3MDQ5fDA&ixlib=rb-4.0.3&w=1400',
+    'instagram.webp',
   feature3Description:
     'Let us handle your Google Ads campaigns to drive targeted traffic and maximize your ROI.',
   feature1Title: 'Instagram Followers Increase',
   feature3Title: 'Google Ads Management',
   feature2Title: 'YouTube Services',
   feature2ImageSrc:
-    'https://images.unsplash.com/photo-1611162616475-46b635cb6868?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fHlvdXR1YmV8ZW58MHx8fHwxNzE3NDg3MDI1fDA&ixlib=rb-4.0.3&h=300',
+    'youtube.webp',
   sectionDescription:
     'Check out the amazing features we offer to boost your online presence.',
   sectionTitle: 'Our Features',
