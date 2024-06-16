@@ -74,11 +74,19 @@ const Navbar4 = (props) => {
               </div>
             </div>
             <nav className="navbar4-links1">
-              <span className="thq-link thq-body-small">{props.link1}</span>
-              <span className="thq-link thq-body-small">{props.link2}</span>
-              <span className="thq-link thq-body-small">{props.link3}</span>
-              <span className="thq-link thq-body-small">{props.link4}</span>
-              <span className="thq-link thq-body-small">{props.link5}</span>
+            <Link to="/">
+            <span className="thq-link thq-body-small">{props.link1}</span>
+            </Link>
+            <Link to="/service">
+            <span className="thq-link thq-body-small">{props.link2}</span>
+            </Link>
+            <Link to="/about">
+            <span className="thq-link thq-body-small">{props.link3}</span>
+            </Link>
+            <Link to="/contact">
+            <span className="thq-link thq-body-small">{props.link4}</span>
+            </Link>
+            <span className="thq-link thq-body-small">{props.link5}</span>
             </nav>
           </div>
           <div className="navbar4-buttons">

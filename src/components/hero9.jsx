@@ -17,8 +17,11 @@ const Hero9 = (props) => {
       <div className="hero9-max-width thq-section-max-width">
         <div className="hero9-content">
           <h1 className="hero9-text thq-heading-1">{props.heading1}</h1>
-        
+          <strong>
+            <i>
           <p className="hero9-text1 thq-body-large">{props.content1}</p>
+          </i>
+          </strong>
           <div className="hero9-actions">
             <button className="thq-button-filled hero9-button">
             <Link to="/service">
@@ -44,7 +47,7 @@ const Hero9 = (props) => {
 Hero9.defaultProps = {
   action2: 'Get Started',
   image1Src:
-    './bg.svg',
+    './bg.webp',
   content1:
     'We offer top-notch Instagram, YouTube, and Google Ads services to help you increase followers, engagement, and reach your target audience.',
   action1: 'Learn More',
