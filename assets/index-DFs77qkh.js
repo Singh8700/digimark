@@ -57,14 +57,13 @@ margin-top:-10svw;
 }
 @media (max-width: 990px){
 div .prod{
-height:350vh;
-margin-top:-110svw;
+height:390vh;
+margin-top:-80svw;
 }
 }
 @media (max-width: 780px){
-
 div .prod{
-height:560vh;
+height:520vh;
 margin-top:-170svw;
 }
 }
