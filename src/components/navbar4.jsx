@@ -34,8 +34,9 @@ const Navbar4 = (props) => {
             <Link to="/contact">
             <span className="thq-link thq-body-small">{props.link4}</span>
             </Link>
+            <Link to="/order">
             <span className="thq-link thq-body-small">{props.link5}</span>
-            
+            </Link>
           </nav>
           <div className="navbar4-buttons">
             <button className="navbar4-action1 thq-button-filled thq-button-animated">
@@ -86,7 +87,9 @@ const Navbar4 = (props) => {
             <Link to="/contact">
             <span className="thq-link thq-body-small">{props.link4}</span>
             </Link>
+            <Link to="/order">
             <span className="thq-link thq-body-small">{props.link5}</span>
+            </Link>
             </nav>
           </div>
           <div className="navbar4-buttons">
@@ -122,6 +125,7 @@ Navbar4.defaultProps = {
   action3: '/about',
   action2: '/services',
   link3: 'About Us',
+  link5: 'Products',
 }
 
 Navbar4.propTypes = {
@@ -134,6 +138,7 @@ Navbar4.propTypes = {
   action3: PropTypes.string,
   action2: PropTypes.string,
   link3: PropTypes.string,
+  link5: PropTypes.string,
 }
 
 export default Navbar4

@@ -56,7 +56,11 @@ a{
   color:orangered;
 }
 
-
+.products{
+  width:100%;
+  height:100svw;
+  overflow: hidden;
+}
 .textarea {
   color: var(--dl-color-theme-neutral-dark);
   cursor: auto;

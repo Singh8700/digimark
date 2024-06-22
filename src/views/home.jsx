@@ -7,6 +7,7 @@ import Hero9 from '../components/hero9'
 import Features1 from '../components/features1'
 import Contact3 from '../components/contact3'
 import './home.css'
+import Products from '../components/Products'
 
 const Home = (props) => {
   return (
@@ -29,6 +30,7 @@ const Home = (props) => {
       </Helmet>
        <Hero9></Hero9>
       <Features1></Features1>
+      <Products></Products>
       <Contact3></Contact3>
     </div>
   )

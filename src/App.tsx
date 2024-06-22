@@ -15,6 +15,7 @@ import Navbar4 from './components/navbar4'
 import Privacy from './components/privacy';
 import Term from "./components/term"
 import About from "./components/About"
+import Order from "./components/Order"
 const App = () => {
   return (
     <>
@@ -27,6 +28,7 @@ const App = () => {
         <Route component={Privacy} path="/privacy-policy" element={Privacy}/>
         <Route component={About} path="/about" element={About}/>
         <Route component={Term} path="/term" element={Term}/>
+        <Route component={Order} path="/order" element={Order}/>
         <Route component={NotFound} path="**" element={NotFound}/>
         <Redirect to="**" />
       </Switch>
