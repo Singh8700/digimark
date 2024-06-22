@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Order = () => {
+  //alert(innerWidth)
   return (
     <Wrapper className='footer1-footer1 thq-section-padding'>
       <div className='footer1-max-width thq-section-max-width'>
@@ -19,14 +20,13 @@ margin-top:-10svw;
 }
 @media (max-width: 990px){
 div .prod{
-height:350vh;
-margin-top:-110svw;
+height:390vh;
+margin-top:-80svw;
 }
 }
 @media (max-width: 780px){
-
 div .prod{
-height:560vh;
+height:520vh;
 margin-top:-170svw;
 }
 }
